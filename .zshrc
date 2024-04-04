@@ -119,9 +119,12 @@ source ~/.nvm/nvm.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-#
+
 # GO CONFIG INFO
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# ZOXIDE BINDING
+eval "$(zoxide init --cmd cd zsh)"
