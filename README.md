@@ -6,7 +6,7 @@ This directory contains the dotfiles for my system
 
 Ensure you have the following installed on your system
 
-### Git
+### GIT
 
 ```
 sudo apt install git
@@ -18,13 +18,31 @@ sudo apt install git
 sudo apt-get install zsh
 ```
 
+### CURL
+
+```
+sudo apt install curl
+```
+
 ### OH MY ZSH
 
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-### Stow
+### POWERLEVEL10K
+
+```
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
+
+### NVM
+
+```
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+```
+
+### STOW
 
 ```
 sudo apt install stow
