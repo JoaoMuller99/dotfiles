@@ -42,6 +42,12 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 ```
 
+### TPM
+
+```
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
 ### STOW
 
 ```
