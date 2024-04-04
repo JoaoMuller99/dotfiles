@@ -12,6 +12,18 @@ Ensure you have the following installed on your system
 sudo apt install git
 ```
 
+### ZSH
+
+```
+sudo apt-get install zsh
+```
+
+### OH MY ZSH
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 ### Stow
 
 ```
