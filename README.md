@@ -48,7 +48,7 @@ curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
-### TPM
+### ZOXIDE
 
 ```
 curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | bash
