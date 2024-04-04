@@ -12,7 +12,7 @@ fi
 export ZSH="$HOME/.oh-my-zsh"
 
 # $PATH customization
-export PATH="/home/joaomuller/.local/bin:$PATH"
+export PATH="~/.local/bin:$PATH"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
