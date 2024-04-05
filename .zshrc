@@ -84,7 +84,6 @@ plugins=(
   git
   zsh-autosuggestions
   zsh-syntax-highlighting
-  zsh-history-substring-search
 )
 
 export RPS1="%{$reset_color%}"
@@ -128,3 +127,5 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 # ZOXIDE BINDING
 eval "$(zoxide init --cmd cd zsh)"
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
