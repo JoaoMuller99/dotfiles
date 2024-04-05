@@ -42,6 +42,12 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 ```
 
+### NVIM
+
+```
+sudo apt install neovim
+```
+
 ### TPM
 
 ```
@@ -65,12 +71,26 @@ sudo apt install stow
 First, check out the dotfiles repo in your $HOME directory using git
 
 ```
-$ git clone https://github.com/JoaoMuller99/dotfiles.git ~/dotfiles
-$ cd dotfiles
+git clone https://github.com/JoaoMuller99/dotfiles.git ~/dotfiles
+cd dotfiles
+```
+
+remove the current config files (so it can be replaced by the new ones)
+
+```
+rm -rf ~/.zshrc
+rm -rf ~/.config/nvim
+rm -rf ~/.config/tmux
 ```
 
 then use GNU stow to create symlinks
 
 ```
-$ stow .
+stow .
+```
+
+finally, run the following command to install the tmux plugins via TPM
+
+```
+cd ~/.tmux/plugins/tpm/scripts && ./install_plugins.sh
 ```
