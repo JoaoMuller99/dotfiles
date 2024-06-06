@@ -128,4 +128,3 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 # ZOXIDE BINDING
 eval "$(zoxide init --cmd cd zsh)"
 
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
