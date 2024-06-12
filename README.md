@@ -30,10 +30,10 @@ sudo apt install curl
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-### POWERLEVEL10K
+### OH MY POSH
 
 ```
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+curl -s https://ohmyposh.dev/install.sh | bash -s -- -d ~/.local/bin
 ```
 
 ### NVM
