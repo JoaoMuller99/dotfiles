@@ -121,4 +121,4 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 eval "$(zoxide init --cmd cd zsh)"
 
 # OH-MY-POSH INIT
-eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/catppuccin_mocha.omp.json)"
+eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/custom_catppuccin_mocha.toml)"

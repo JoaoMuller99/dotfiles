@@ -9,18 +9,6 @@ final_space = true
   newline = true
 
   [[blocks.segments]]
-    type = 'os'
-    style = 'plain'
-    foreground = 'p:os'
-    template = '{{.Icon}} '
-
-  [[blocks.segments]]
-    type = 'session'
-    style = 'plain'
-    foreground = 'p:blue'
-    template = '{{ .UserName }}@{{ .HostName }} '
-
-  [[blocks.segments]]
     type = 'path'
     style = 'plain'
     foreground = 'p:pink'
