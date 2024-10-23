@@ -5,6 +5,16 @@ local capabilities = config.capabilities
 local lspconfig = require('lspconfig')
 local util = require 'lspconfig/util'
 
+lspconfig.ts_ls.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+  init_options = {
+    preferences = {
+      disableSuggestions = true,
+    }
+  }
+}
+
 lspconfig.clangd.setup {
   on_attach = function (client, bufnr)
     client.server_capabilities.signatureHelpProvider = false
@@ -12,6 +22,8 @@ lspconfig.clangd.setup {
   end,
   capabilities = capabilities,
 }
+
+lspconfig.lua_ls.setup{}
 
 lspconfig.rust_analyzer.setup {
   on_attach = on_attach,
