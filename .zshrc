@@ -27,7 +27,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 source ~/.nvm/nvm.sh
 alias ls="eza -a --icons"
-alias ll="eza -1 -a --icons"
+alias ll="eza -1 -a --icons -l"
 alias cls="clear && fastfetch"
 
 # ZOXIDE BINDING
