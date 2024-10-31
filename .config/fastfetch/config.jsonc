@@ -1,16 +1,12 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
-  "logo": {
-    "source": "$(find \"../pngs/arch.png\")",
-    "height": 18,
-  },
   "display": {
     "separator": " : ",
   },
   "modules": [
     {
       "type": "custom",
-      "format": "\u001b[36m  󰌢  コンピューター",
+      "format": "\u001b[36m  󰌢  주앙의 컴퓨터",
     },
     {
       "type": "custom",
