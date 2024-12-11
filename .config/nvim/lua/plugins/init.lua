@@ -50,4 +50,14 @@ return {
       require "configs.mason"
     end,
   },
+
+  {
+    "folke/todo-comments.nvim",
+    event = { "BufReadPre", "BufNewFile" },
+    dependencies = { "nvim-lua/plenary.nvim" },
+    opts = {},
+    config = function()
+      require("todo-comments").setup()
+    end,
+  },
 }
