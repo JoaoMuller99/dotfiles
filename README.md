@@ -8,63 +8,23 @@ Ensure you have the following installed on your system
 
 ### GIT
 
-```
-sudo apt install git
-```
-
 ### ZSH
-
-```
-sudo apt-get install zsh
-```
 
 ### CURL
 
-```
-sudo apt install curl
-```
-
 ### OH MY ZSH
-
-```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
 
 ### OH MY POSH
 
-```
-curl -s https://ohmyposh.dev/install.sh | bash -s -- -d ~/.local/bin
-```
-
 ### NVM
-
-```
-curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
-```
 
 ### NVIM
 
-```
-sudo apt install neovim
-```
-
 ### TPM
-
-```
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-```
 
 ### ZOXIDE
 
-```
-curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | bash
-```
-
 ### STOW
-
-```
-sudo apt install stow
-```
 
 ## Installation
 
