@@ -25,7 +25,7 @@ export RPS1="%{$reset_color%}"
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-source ~/.nvm/nvm.sh
+source ~/.config/nvm/nvm.sh
 alias ls="eza -a --icons"
 alias ll="eza -1 -a --icons -l"
 alias cls="clear && fastfetch"
@@ -35,3 +35,4 @@ eval "$(zoxide init --cmd cd zsh)"
 
 # OH-MY-POSH INIT
 eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/custom_catppuccin_mocha.toml)"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
