@@ -8,7 +8,7 @@
 
 {
     "logo": {
-    	"source": "~/.config/fastfetch/aesthetic.jpg",
+    	"source": "~/.config/fastfetch/images/blue.jpeg",
     	"type": "kitty",
     	"height": 16,
     	"padding": {
