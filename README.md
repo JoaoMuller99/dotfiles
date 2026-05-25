@@ -41,6 +41,8 @@ remove the current config files (so it can be replaced by the new ones)
 rm -rf ~/.zshrc
 rm -rf ~/.config/nvim
 rm -rf ~/.config/tmux
+rm -rf ~/.config/kitty
+rm -rf ~/.config/fastfetch
 ```
 
 then use GNU stow to create symlinks
