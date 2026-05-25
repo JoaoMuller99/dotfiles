@@ -35,3 +35,11 @@ eval "$(zoxide init --cmd cd zsh)"
 
 # OH-MY-POSH INIT
 eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/custom_catppuccin_mocha.toml)"
+export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
+
+# bun completions
+[ -s "/Users/joaomuller/.bun/_bun" ] && source "/Users/joaomuller/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
