@@ -8,12 +8,6 @@ export ZSH="$HOME/.oh-my-zsh"
 # $PATH customization
 export PATH="$HOME/.local/bin:$PATH"
 
-# Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
-# to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME=""
-
 # Plugins
 plugins=(
   git
@@ -33,7 +27,7 @@ alias cls="clear && fastfetch"
 eval "$(zoxide init --cmd cd zsh)"
 
 # OH-MY-POSH INIT
-eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/custom_catppuccin_mocha.toml)"
+eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/star.omp.json)"
 export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
 
 # bun completions
