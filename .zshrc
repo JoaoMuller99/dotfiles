@@ -25,7 +25,6 @@ export RPS1="%{$reset_color%}"
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-source ~/.config/nvm/nvm.sh
 alias ls="eza -a --icons"
 alias ll="eza -1 -a --icons -l"
 alias cls="clear && fastfetch"
@@ -43,3 +42,7 @@ export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
