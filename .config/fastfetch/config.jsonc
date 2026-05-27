@@ -7,7 +7,7 @@
 {
   "logo": {
     "source": "~/.config/fastfetch/images/blue.jpeg",
-    "type": "iterm",
+    "type": "kitty",
     "height": 16,
     "padding": {
       "top": 0

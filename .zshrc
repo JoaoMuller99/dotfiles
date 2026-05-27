@@ -19,6 +19,7 @@ export RPS1="%{$reset_color%}"
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+source ~/.config/nvm/nvm.sh
 alias ls="eza -a --icons"
 alias ll="eza -1 -a --icons -l"
 alias cls="clear && fastfetch"
