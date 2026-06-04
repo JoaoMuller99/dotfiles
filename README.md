@@ -48,7 +48,8 @@ rm -rf ~/.config/fastfetch
 then use GNU stow to create symlinks
 
 ```
-stow .
+sudo stow -t ~/.config .config
+sudo stow -t /etc etc_configs
 ```
 
 finally, run the following command to install the tmux plugins via TPM
