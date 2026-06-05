@@ -8,7 +8,7 @@
   "logo": {
     "source": "~/.config/fastfetch/images/blue.jpeg",
     "type": "iterm",
-    "height": 16,
+    "width": 60,
     "padding": {
       "top": 0
     }
