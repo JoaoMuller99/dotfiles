@@ -1,4 +1,10 @@
-fastfetch
+# Fastfetch: Chafa fallback inside multiplexers (no image protocol support)
+if [[ -n "$TMUX" || -n "$HERDR_ENV" ]]; then
+  fastfetch --logo-type chafa 
+else
+  fastfetch
+fi
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -21,7 +27,11 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 alias ls="eza -a --icons"
 alias ll="eza -1 -a --icons -l"
-alias cls="clear && fastfetch"
+if [[ -n "$TMUX" || -n "$HERDR_ENV" ]]; then
+  alias cls="clear && fastfetch --logo-type chafa"
+else
+  alias cls="clear && fastfetch"
+fi
 
 # ZOXIDE BINDING
 eval "$(zoxide init --cmd cd zsh)"
